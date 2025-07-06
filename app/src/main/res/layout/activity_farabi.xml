@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#263238">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Nama -->
+        <TextView
+            android:id="@+id/txtNamaFarabi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_farabi"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Foto -->
+        <ImageView
+            android:id="@+id/imgFarabi"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/farabi"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Aktivitas -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aktivitas:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/txtAktivitas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aktivitas_farabi"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Pendidikan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pendidikan:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/txtPendidikan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pendidikan_farabi"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Tombol Instagram -->
+        <Button
+            android:id="@+id/btnInstagram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lihat Instagram"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Tombol WhatsApp -->
+        <Button
+            android:id="@+id/btnWhatsapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hubungi via WhatsApp" />
+
+    </LinearLayout>
+</ScrollView>

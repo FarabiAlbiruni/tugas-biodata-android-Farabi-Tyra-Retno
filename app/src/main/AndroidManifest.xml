@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.personalprofile">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Biodata Pribadi"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Personalprofile">
+
+        <!-- Tampilan awal -->
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Semua activity -->
+        <activity android:name=".DaftarAnggotaActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".BiodataActivity" />
+        <activity android:name=".PendidikanActivity" />
+        <activity android:name=".AktivitasActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".FarabiActivity" />
+        <activity android:name=".RetnoActivity" />
+        <activity android:name=".TyraActivity" />
+
+    </application>
+</manifest>
