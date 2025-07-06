@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Farabi -->
+    <string name="nama_farabi">Farabi Albiruni Syadida</string>
+    <string name="aktivitas_farabi">
+03:30 - 05:00 : Melaksanakan sholat tahajud lanjut dengan shubuh&#10;
+06:30 - 07:00 : Mengantar adik ke sekolah&#10;
+07:30 - 13:00 : Bekerja (Freelance / Kantor)&#10;
+12:00 - 13:00 : Istirahat dan makan siang&#10;
+15:30 - 21:30 : Berangkat dan kuliah&#10;
+21:40 - 22:00 : Ngopi santuy&#10;
+23:00 - 00:00 : Belajar / tugas kuliah / me-time
+    </string>
+    <string name="pendidikan_farabi">
+MI - ALKHOIRIYAH Jakarta (2009 - 2015)&#10;
+DAARUL RAHMAN Jakarta (2015 - 2020)&#10;
+UNIVERSITAS YATSI MADANI - ILMU - KOMPUTER
+    </string>
+
+    <!-- Retno -->
+    <string name="nama_retno">Retno Diwanti</string>
+    <string name="aktivitas_retno">
+05.30 Solat Subuh (kalau tidak kesiangan)&#10;
+06.30 Mandi dan sarapan&#10;
+08.00 Berangkat kerja&#10;
+18.20 Kuliah&#10;
+23.30 Tidur
+    </string>
+    <string name="pendidikan_retno">
+PAUD: PAUD ISLAM KEMULIAAN JAKARTA&#10;
+TK : TK ISLAM KEMULIAAN JAKARTA&#10;
+SD : SDN PEGADUNGAN 06 PAGI JAKARTA&#10;
+SMP: SMP CENGKARENG 1 JAKARTA&#10;
+SMK : SMK GLOBAL TANGERANG
+    </string>
+
+    <!-- Tyra -->
+    <string name="nama_tyra">Tyara Nur Hidayah</string>
+    <string name="aktivitas_tyra">
+05:00 - Sholat Subuh&#10;
+Setelah itu bersih-bersih rumah&#10;
+07:00 - Bantu orang tua jualan&#10;
+12:00 - Sholat Zuhur, lalu pulang ke rumah&#10;
+Main HP / istirahat&#10;
+17:30 - Berangkat kuliah&#10;
+21:40 - Pulang ke rumah&#10;
+Main HP / ngerjain tugas jika ada&#10;
+00:00 - Tidur&#10;
+Pagi hari melanjutkan aktivitas kembali
+    </string>
+    <string name="pendidikan_tyra">
+SD Poris Plawad 07&#10;
+SMPN 26 Kota Tangerang&#10;
+SMA YP Karya&#10;
+Universitas Yatsi Madani
+    </string>
+
+</resources>

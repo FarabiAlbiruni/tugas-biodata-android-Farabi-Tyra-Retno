@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:text="Daftar Anggota"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnFarabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Farabi" />
+
+    <Button
+        android:id="@+id/btnRetno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retno"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnTyra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tyra"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
